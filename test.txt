@@ -1,0 +1,14 @@
+Dump of assembler code for function main:
+   0x00000000000005fa <+0>:	push   %rbp
+   0x00000000000005fb <+1>:	mov    %rsp,%rbp
+   0x00000000000005fe <+4>:	movl   $0x1,-0xc(%rbp)
+   0x0000000000000605 <+11>:	movl   $0x1,-0x8(%rbp)
+   0x000000000000060c <+18>:	movl   $0x0,-0x4(%rbp)
+   0x0000000000000613 <+25>:	mov    -0xc(%rbp),%edx
+   0x0000000000000616 <+28>:	mov    -0x8(%rbp),%eax
+   0x0000000000000619 <+31>:	add    %edx,%eax
+   0x000000000000061b <+33>:	mov    %eax,-0x4(%rbp)
+   0x000000000000061e <+36>:	mov    $0x0,%eax
+   0x0000000000000623 <+41>:	pop    %rbp
+   0x0000000000000624 <+42>:	retq   
+End of assembler dump.
